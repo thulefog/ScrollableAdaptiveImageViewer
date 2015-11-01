@@ -1,2 +1,2 @@
 # ScrollableAdaptiveImageViewer
-Seed code for an iOS image viewer with pinch and tap gestures for zoom and swipe gestures for panning.
+Source code in Swift for a reusable iOS image viewer with intuitive gestures: pinch and tap for zoom and swipe for pan.
