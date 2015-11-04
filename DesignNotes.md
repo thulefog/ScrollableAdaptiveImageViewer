@@ -1,12 +1,22 @@
 # ScrollableImageViewController
 
-ScrollableImageViewController is a product of a few iterations to have a reusable image viewer based on Scroll Views and intuitive touch gestures.
+ScrollableImageViewController is a product of a few iterations to have a reusable image viewer based on Scroll Views and intuitive touch gestures.  Code was built with Version 7.1 and was tested using iOS 9.1 on an iPhone 5.
 
 - The view controller makes use of ViewableFactory to abstract from some of details of loading viewable data. This view controller is part of the Viewables code area noted below and seed code from which framework(s) could grow.
 
 - There is a very simple JSON store that provides a key to the asset catalog for the test pattern. This JSON store is a simplification for a more complicated data aggregate under test for dynamic layouts of larger data sets. Reference the Data Layer area in the project.
 
 - The scrollable view, due the being the product of some iterations and refinement is log enabled. The primary details logged are coordinates and other calculations related to display pipeline i.e. the image data, view and frame.
+
+| Gesture | Action |
+|---|---|
+| *Single Finger Tap* | Zoom In |
+| *Two Finger Tap* | Zoom Out |
+| *Three Finger Tap* | Close Current Image  |
+
+# Screens
+
+![Clip](./Scrollable.gif)
 
 A breakdown of the broad areas where code has been under construction is listed below.
 
@@ -18,7 +28,7 @@ A breakdown of the broad areas where code has been under construction is listed 
 
 # Next Steps
 
-Some work needed to scrub post iOS 9.x and XCode 7.x warnings, beyond that - code iterations under way or planned include.
+Some work needed to re-introduce unit tests as well as scrub post iOS 9.x and XCode 7.x warnings, beyond that - code iterations under way or planned include.
 
 
 *Layouts*
