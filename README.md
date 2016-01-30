@@ -64,3 +64,6 @@ Reference Code:
 -[PureLayout](https://github.com/PureLayout)
 
 -[GPUImage](https://github.com/BradLarson/GPUImage)
+
+## License
+[MIT](http://firebase.mit-license.org)
